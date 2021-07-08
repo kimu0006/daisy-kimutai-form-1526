@@ -13,6 +13,7 @@ let email = document.getElementById('email');
 // <textarea id="message"></textarea>
 let message = document.getElementById('message');
 
+let form = document.getElementById('contact');
 // function
 
 function formValidator(ev){

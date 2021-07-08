@@ -1,0 +1,151 @@
+/* Color Scheme
+
+    #DDD
+    #F5F5F5
+    #6495ED */
+
+/* main{
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    position: absolute;
+    width: 18.7rem;
+    margin-left: 1rem;
+    position: relative;
+    background-color: white;
+}s
+.heading h2{
+    font-weight: 100;
+    border: 1px solid #f3f3f4;
+    padding: 1.8rem 1.2rem;
+}
+form{
+    border: 1px solid #f5f5f5;
+    background-color: #f3f3f4;
+    margin-top: -3.5rem;
+    border-radius: 0.2rem 0.2rem;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+}
+label{
+    margin: 1rem;
+}
+input{
+    margin: 0.5rem;
+    height: 2rem;
+    width: 20rem;
+    margin-left: 1rem;
+    border-radius: 0.2rem 0.2rem;
+    border: 1px solid #f5f5f5;
+}
+textarea{
+    border: 1px solid #f5f5f5;
+    margin: 1rem;
+    border-radius: 0.2rem 0.2rem;
+}
+.submit{
+    background-color: #4a8de5;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem 0.2rem;
+}*/
+
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
+main{
+    max-width: 100%;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    position: relative;
+}
+/* .fname{
+    margin-top: 2rem;
+} */
+.layer-two{
+    background-color: #F5F5F5;
+    border-radius: 0.2rem 0.2rem;
+}
+.whole-form{
+    position: relative;
+    margin-top: -2rem;
+}
+input{
+    margin-top: 0.5rem;
+    border-radius: 0.2rem 0.2rem;
+    border: 2px solid #f3f3f4;
+}
+textarea{
+    margin-top: 1rem;
+    border-radius: 0.2rem 0.2rem;
+    border: 2px solid #f3f3f4;
+}
+.heading h2{
+    position: absolute;
+    font-weight: 100;
+    border: 2px solid #f3f3f4;
+    padding: 1.5rem ;
+    width: 12rem;
+    margin-left: 1rem;
+    background-color: white;
+    margin-top: -2rem;
+}
+.empty-cell{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.insert-info{
+    margin: 1rem;
+    margin-top: 5rem;
+}
+
+button{
+    background-color: #4a8de5;
+    padding: 10px;
+    border-radius: 0.2rem 0.2rem;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*********RESPONSIVE DESIGN**********/
+
+@media (min-width: 25rem){
+    input{
+        width: 95%;
+        height: 1.5rem;
+    }
+    textarea{
+        width: 98%;
+        height: 4rem;
+    }
+    button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 40rem){
+    .insert-info .personal-info{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    button{
+        width: 20%;
+    }
+}
+
+@media (min-width: 50rem){
+    /*  .content{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    } */
+   
+}

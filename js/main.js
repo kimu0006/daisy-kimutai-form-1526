@@ -44,6 +44,7 @@ function formValidator(ev){
        } else{
           errors.push('Please enter message');
        };
+   
        if(errors == ""){
           console.log(data);
           form.reset();
